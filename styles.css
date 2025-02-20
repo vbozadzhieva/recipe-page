@@ -55,10 +55,6 @@ ol {
     line-height: 1.8;
 }
 
-ol {
-    list-style-type: none;
-}
-
 p,
 ul,
 ol,
@@ -118,10 +114,13 @@ h3 {
     border: 1px solid var(--stone-150);
 }
 
-.instructions-list .number {
+.instructions-list {
+    padding-left: 20px;
+}
+
+.instructions-list li::marker {
     color: var(--brown-800);
-    font-weight: 700;
-    margin-right: 15px;
+    font-weight: bold;
 }
 
 .table-description {
